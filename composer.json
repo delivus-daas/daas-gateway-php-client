@@ -2,7 +2,7 @@
   "name": "delivus/clients",
   "description": "딜리래빗 V2 클라이언트",
   "type": "library",
-  "version": "1.0.0",
+  "license": "proprietary",
   "require": {
     "amphp/amp": "^3.0",
     "revolt/event-loop": "^1.0",
@@ -25,5 +25,8 @@
     "classmap": [
       "src/"
     ]
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit --colors=always --debug --bootstrap vendor/autoload.php --configuration phpunit.xml tests/"
   }
 }
