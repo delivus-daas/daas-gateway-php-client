@@ -1,6 +1,6 @@
 {
-  "name": "delivus/clients",
-  "description": "딜리래빗 V2 클라이언트",
+  "name": "delivus/delirabbit-v2-client",
+  "description": "Delirabbit V2 Client for PHP 8.2+",
   "type": "library",
   "license": "proprietary",
   "require": {
