@@ -2,7 +2,6 @@
   "name": "delivus/clients",
   "description": "딜리래빗 V2 클라이언트",
   "type": "library",
-  "version": "1.0.0",
   "license": "proprietary",
   "require": {
     "amphp/amp": "^3.0",
